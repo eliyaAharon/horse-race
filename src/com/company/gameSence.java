@@ -282,7 +282,7 @@ public class gameSence extends JPanel {
                     try {
                         horseObstacles[i].moveLeft();
                         horseEnemy[i].moveLeft();
-                        Thread.sleep(5000);
+                        Thread.sleep(2000);
 
                     } catch (InterruptedException e) {
                         e.printStackTrace();

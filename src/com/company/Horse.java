@@ -50,11 +50,11 @@ public class Horse {
     }
 
     public void moveUpp() {
-        this.y -= 5;
+        this.y -= 7;
     }
 
     public void moveDown() {
-        this.y += 5;
+        this.y += 7;
     }
 
     public void moveRight() {

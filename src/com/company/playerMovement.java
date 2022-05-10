@@ -25,16 +25,21 @@ public class playerMovement implements KeyListener {
 
 
     public void keyPressed(KeyEvent e) {
-            int key = e.getKeyCode();
-            switch (key) {
-                case KeyEvent.VK_UP:
-                    this.horse.moveUpp();
-                    this.horsePlayer.moveUpp();
-                    break;
-                case KeyEvent.VK_DOWN:
-                    this.horse.moveDown();
-                    this.horsePlayer.moveDown();
-                    break;
+
+    }
+
+
+    public void keyReleased(KeyEvent e) {
+        int key = e.getKeyCode();
+        switch (key) {
+            case KeyEvent.VK_UP:
+                this.horse.moveUpp();
+                this.horsePlayer.moveUpp();
+                break;
+            case KeyEvent.VK_DOWN:
+                this.horse.moveDown();
+                this.horsePlayer.moveDown();
+                break;
             case KeyEvent.VK_RIGHT:
                 this.horse.moveRight();
                 this.horsePlayer.moveRight();
@@ -53,11 +58,6 @@ public class playerMovement implements KeyListener {
                 break;
 
         }
-    }
-
-
-    public void keyReleased(KeyEvent e) {
-
     }
 }
 

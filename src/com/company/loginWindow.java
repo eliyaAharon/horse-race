@@ -56,6 +56,8 @@ public class loginWindow extends JFrame {
 
         // label of title
         JLabel title = new JLabel("ENTER YOUR NAME TO START GAME");
+      //hj
+
         title.setBounds(40, 20, 420, 80);
         title.setForeground(Color.orange.darker());
         title.setBackground(Color.BLACK);

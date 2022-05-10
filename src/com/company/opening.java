@@ -77,6 +77,7 @@ public class opening extends JPanel {
 
 
         }));
+
         // action of soundButton
 
         soundButton.addActionListener((e -> {
